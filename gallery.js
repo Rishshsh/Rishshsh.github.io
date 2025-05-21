@@ -8,32 +8,32 @@ $(document).ready(function() {
     let currentImageIndex = 0;
 
     function showImage() {
-        $images.hide(); // Скрываем все изображения
-        $images.eq(currentImageIndex).show(); // Показываем только текущее
+        $images.hide();
+        $images.eq(currentImageIndex).show();
     }
 
-    showImage(); // Показываем первое изображение при загрузке страницы
+    showImage(); 
 
     function nextImage() {
-        currentImageIndex = (currentImageIndex + 1) % totalImages; // Переходим к следующему изображению
-        showImage(); // Обновляем отображение
+        currentImageIndex = (currentImageIndex + 1) % totalImages;
+        showImage(); 
     }
 
     function prevImage() {
-        currentImageIndex = (currentImageIndex - 1 + totalImages) % totalImages; // Переходим к предыдущему изображению
-        showImage(); // Обновляем отображение
+        currentImageIndex = (currentImageIndex - 1 + totalImages) % totalImages;
+        showImage(); 
     }
 
-    $nextButton.on('click', nextImage); // Обработчик для кнопки "Следующее"
-    $prevButton.on('click', prevImage); // Обработчик для кнопки "Предыдущее"
+    $nextButton.on('click', nextImage); 
+    $prevButton.on('click', prevImage); 
 });
 
 
 $(document).ready(function(){
-    // Дополнительные скрипты jQuery (например, анимация)
+  
     $("li").hover(
       function() {
-        $(this).find(".dropdown-content").slideDown(200); // Выпадающее меню с анимацией
+        $(this).find(".dropdown-content").slideDown(200); 
       }, function() {
         $(this).find(".dropdown-content").slideUp(200);
       }

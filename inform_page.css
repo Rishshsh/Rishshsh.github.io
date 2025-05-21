@@ -142,31 +142,25 @@ ol {
 
     .main-menu li {
         display: block;
-        /* Занимаем всю ширину */
         text-align: center;
-        /* Выравниваем текст по центру */
     }
 
     .main-menu a {
         display: block;
-        /* Чтобы ссылки занимали всю ширину li */
     }
 
     .dropdown-content {
         position: static;
-        /* Убираем абсолютное позиционирование */
         display: none;
-        /* Скрываем выпадающий список по умолчанию */
         background: rgba(77, 77, 77, 0.95);
     }
 
     .dropdown:hover .dropdown-content {
         display: block;
-        /* Показываем при наведении/клике */
     }
 
     .imgalign img {
-                max-width: 70%; /* Уменьшаем максимальную ширину до 70% */
+                max-width: 70%; 
             }
 
 }
