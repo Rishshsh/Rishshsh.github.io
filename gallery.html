@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея изображений</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+<header>
+    <nav class="main-menu">
+        <ul>
+              <li>
+                <a href="index.html" >Главная</a>
+            </li>
+            <li>
+                <a>Лечение</a>
+                <div class="dropdown-content">
+                    <a href="inform_page.html#benefit">Польза</a>
+                    <a href="inform_page.html#counterpropagation">Противопоказания</a>
+                    <a href="inform_page.html#therapeutic">Как происходит</a>
+                </div>
+            </li>
+            <li>
+                <a>Интересное</a>
+                <div class="dropdown-content">
+                    <a href="inform_page.html#history">История</a>
+                    <a href="inform_page.html#robo">Роботизированная иппотерапия</a>
+                </div>
+            </li>
+            <li>
+                <a href="gallery.html" >Галерея</a>
+            </li>
+        </ul>
+    </nav>
+    </header><br>
+     <h1>
+       Галерея
+    </h1>
+<div class="gallery-container">
+    <button id="prevButton">&lt;</button>
+
+    <div class="gallery-wrapper">
+        <div class="gallery">
+            <img src="photo/1.jpg" alt="Image 1">
+            <img src="photo/2.jpg" alt="Image 2">
+            <img src="photo/3.jpg" alt="Image 3">
+            <img src="photo/4.jpg" alt="Image 4">
+            <img src="photo/5.jpg" alt="Image 5">
+            <img src="photo/6.jpg" alt="Image 6">
+            <img src="photo/girlandhorse.jpg" alt="Image 7">
+        </div>
+    </div>
+
+    <button id="nextButton">&gt;</button>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="gallery.js"></script>
+
+</body>
+</html>

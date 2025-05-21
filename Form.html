@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css" type="text/css">
+    <title>Document</title>      
+</head>
+<body>
+     <header>
+         <nav class="main-menu">
+        <ul>
+              <li>
+                <a href="index.html" >Главная</a>
+            </li>
+            <li>
+                <a>Лечение</a>
+                <div class="dropdown-content">
+                    <a href="inform_page.html#benefit">Польза</a>
+                    <a href="inform_page.html#counterpropagation">Противопоказания</a>
+                    <a href="inform_page.html#therapeutic">Как происходит</a>
+                </div>
+            </li>
+            <li>
+                <a>Интересное</a>
+                <div class="dropdown-content">
+                    <a href="inform_page.html#history">История</a>
+                    <a href="inform_page.html#robo">Роботизированная иппотерапия</a>
+                </div>
+            </li>
+            <li>
+                <a href="gallery.html" >Галерея</a>
+            </li>
+        </ul>
+    </nav>
+    </header>
+    <h1>
+        Записаться на иппотерапию
+    </h1>
+    <p>
+        <em>*</em> - обязательно для заполнения 
+    </p>
+    <form action="" method="post">
+        <fieldset class="backgroundcolor">
+        <label for = "FullName">ФИО<em>*</em></label><br>
+        <input type ="text" name = "FullName" id = "FullName" placeholder ="Конюхов Константин Абрамович" size = "40" required><br><br>
+        <fieldset name = "Gender" id="Gender" class="backgroundcolor2">
+            <legend>Пол</legend>
+            <input type="radio" name="gender" id="g1" value="man" checked>
+            <label for="g1">Муж.</label><br> 
+            <input type="radio" name="gender" id="g2" value="woman" >
+            <label for="g2"> Жен.</label>
+        </fieldset><br>
+        <label for="Birthday">Дата сеанса<em>*</em></label>
+        <input type="date" name="Birthday" id="Birthday"max="2025-09-10"  min="2025-05-23" required><br><br>
+             <fieldset name = "TrainOrFly" id="TrainOrFly" class="backgroundcolor2">
+                <legend>Первый опыт</legend>
+                <input type="radio" name="pets" id="p1" value="yes" checked>
+                <label for="p1">Да</label><br>
+                <input type="radio" name="pets" id="p2" value="no" >
+                <label for="p2">Нет</label><br>
+            </fieldset><br>
+            <fieldset class="backgroundcolor2">
+                <legend>Вид терапии</legend>
+                <input type="checkbox" name="Fly" id="Fly" checked>
+                <label for="Fly">Классическая</label><br>
+                <input type="checkbox" name="Train" id="Train" checked>
+                <label for="Train">Робо-терапия</label>           
+            </fieldset><br>
+            <fieldset name = "TrainOrFly" id="TrainOrFly" class="backgroundcolor2">
+                <legend>Время терапии</legend>
+                <input type="radio" name="pets" id="p1" value="hour" checked>
+                <label for="p1">1 час</label><br>
+                <input type="radio" name="pets" id="p2" value="halfhour" >
+                <label for="p2">1,5 часа</label><br>
+                <input type="radio" name="pets" id="p3" value="twohour" >
+                <label for="p3">2 часа</label><br>
+            </fieldset><br>
+             <label for = "Comments">Коментарии</label><br>
+            <textarea name = "Comments" id="Comments" rows="5" cols="50">
+                </textarea><br><br>
+            <input name = "Find" type="submit" value="Найти">
+            <input type="reset" value="Очистить">
+        </fieldset>
+    </form>
+
+     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
