@@ -105,6 +105,7 @@ p {
 
 .dropdown-content a:hover {
     font-size: 35px;
+    
 }
 
 .dropdown:hover .dropdown-content {
@@ -114,6 +115,52 @@ p {
 .imgalign {
     text-align: center;
     border-radius: 10px;
+}
+
+footer {
+    padding: 3% 0% 2%;
+    text-align: center;
+    background: linear-gradient(to right, rgb(12, 12, 12), rgb(37, 37, 37));
+}
+
+.basic_h2 {
+    color: rgba(255, 255, 255, 0.647);
+    padding-top: 1%;
+    text-align: center;
+    font-size: xx-large;
+    
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contacts a,
+.contacts {
+    padding: 0% 1% 1% 1%;
+}
+
+.contacts a {
+    font-size: large;
+}
+
+.contacts a {
+
+    text-align: center;
+    font-size: 40pt;
+
+    color: rgba(255, 255, 255, 0.688);
+    text-decoration: none;
+    transition: color 1s ease;
+
+}
+
+.contacts a:hover {
+    color: rgb(255, 255, 255);
+    transition: color 1s ease;
 }
 
 @media (max-width: 800px) {

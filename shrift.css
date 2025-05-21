@@ -1,0 +1,10 @@
+@font-face {
+ font-family: 'Despair Display'; 
+ src: local('Despair Display'),
+  url(DespairDisplay-Bold.otf); 
+}
+@font-face {
+ font-family: 'DIN Next CYR Regular'; 
+ src: local('DIN Next CYR Regular'),
+  url(DINNextCYR-Regular.otf); 
+}
