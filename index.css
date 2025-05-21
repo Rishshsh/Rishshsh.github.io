@@ -42,6 +42,15 @@ p {
 
 }
 
+.contact{
+    font-family: DIN Next CYR Regular;
+    margin: auto;
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 5px;
+
+}
+
 .main-menu {
     background-color: rgba(77, 77, 77, 0.5);
     font-family: Despair Display, bold;
@@ -120,47 +129,7 @@ p {
 footer {
     padding: 3% 0% 2%;
     text-align: center;
-    background: linear-gradient(to right, rgb(12, 12, 12), rgb(37, 37, 37));
-}
-
-.basic_h2 {
-    color: rgba(255, 255, 255, 0.647);
-    padding-top: 1%;
-    text-align: center;
-    font-size: xx-large;
-    
-}
-
-.contacts {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.contacts a,
-.contacts {
-    padding: 0% 1% 1% 1%;
-}
-
-.contacts a {
-    font-size: large;
-}
-
-.contacts a {
-
-    text-align: center;
-    font-size: 40pt;
-
-    color: rgba(255, 255, 255, 0.688);
-    text-decoration: none;
-    transition: color 1s ease;
-
-}
-
-.contacts a:hover {
-    color: rgb(255, 255, 255);
-    transition: color 1s ease;
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(52, 50, 50, 0.5));
 }
 
 @media (max-width: 800px) {
