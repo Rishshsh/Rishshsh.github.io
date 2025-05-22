@@ -12,3 +12,4 @@ $(document).ready(function(){
     event.preventDefault(); // отменяем отправку формы
     alert('Спасибо за запись');
   });
+  
