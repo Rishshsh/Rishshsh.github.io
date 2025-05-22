@@ -7,3 +7,8 @@ $(document).ready(function(){
       }
     );
 });
+
+ document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // отменяем отправку формы
+    alert('Спасибо за запись');
+  });
